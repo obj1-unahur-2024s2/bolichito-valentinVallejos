@@ -19,6 +19,10 @@ object bolichito {
     method algoDeColor(unColor) = (vidriera.color() == unColor) or (mostrador.color() == unColor)
 
     method puedeMejorar() = ( self.esMonocromatico() ) or  ( not self.estaEquilibrado())
+
+    method hayAlgoQueLeGusteA(unaPersona) = unaPersona.leGusta(vidriera) or unaPersona.leGusta(mostrador)
+
+    
    
   
 }

@@ -51,6 +51,42 @@ object placa {
   method peso() = peso
 }
 
+object arito {
+  method color() = celeste
+
+  method peso() = 180
+
+  method material() = cobre
+}
+
+object banquito {
+  var color = naranja
+
+  method color(unColor) {color = unColor}
+
+  method color() = color
+
+  method peso() = 1700
+
+  method materia() = madera
+}
+
+object cajita {
+  var objeto = remera
+
+  method objeto(unObjeto) {objeto = unObjeto}
+
+  method objeto() = objeto
+
+  method color() = rojo
+
+  method peso() = 400 + objeto.peso()
+
+  method material() = cobre
+}
+
+
+
 
 
 
@@ -70,6 +106,10 @@ object celeste {
 
 object pardo {
   method esFuerte() = false
+}
+
+object naranja {
+  method esFuerte() = true 
 }
 
 object cobre {
