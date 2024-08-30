@@ -20,7 +20,7 @@ object bolichito {
 
     method puedeMejorar() = ( self.esMonocromatico() ) or  ( not self.estaEquilibrado())
 
-    method hayAlgoQueLeGusteA(unaPersona) = unaPersona.leGusta(vidriera) or unaPersona.leGusta(mostrador)
+    method hayAlgoQueLeGusteA(persona) = persona.leGusta(vidriera) or persona.leGusta(mostrador)
 
     
    
